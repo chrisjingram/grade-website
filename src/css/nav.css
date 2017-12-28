@@ -1,0 +1,31 @@
+ul.nav{
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px solid white;
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+  ul.nav li{
+    display: inline-block;
+    margin: 0;
+  }
+    ul.nav li a{
+      padding: 20px 30px;
+      font-family: "Courier New", serif;
+      font-weight: bold;
+      color: white;
+      -o-transition:.25s;
+      -ms-transition:.25s;
+      -moz-transition:.25s;
+      -webkit-transition:.25s;
+      transition:.25s;
+      margin: 0;
+      border-left: 1px solid white;
+    }
+    ul.nav li a:hover{
+      color: #040505;
+    }
+    ul.nav li:last-child a{
+      border-right: 2px solid white;
+    }
