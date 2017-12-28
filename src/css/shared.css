@@ -12,11 +12,22 @@
   color: #d0992a;
   border: 1px solid #d0992a;
   font-size: 20px;
+  -o-transition:.25s;
+  -ms-transition:.25s;
+  -moz-transition:.25s;
+  -webkit-transition:.25s;
+  transition:.25s;
+}
+
+.border-button:link, .border-button:visited, .border-button:active{
+  background: transparent;
+  color: #d0992a;
 }
 
 .border-button:hover{
   text-decoration: none;
-  color: #d0992a;
+  background: #d0992a;
+  color: #040505;
 }
 
 
