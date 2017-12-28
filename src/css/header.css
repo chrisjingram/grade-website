@@ -14,20 +14,24 @@ section#header{
 
 #header h2{
   margin: 0; padding: 0;
-  font-family: "ButlerMedium", serif;
+  font-family: "ButlerRegular", serif;
   display: block;
   width: 100%;
   margin: 0 auto;
   text-align: center;
   font-size: 4vw;
   letter-spacing: 3px;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
+}
+#header h2::selection{
+  background: white;
+  opacity: 1;
 }
 
 #header img.logo{
   display: block;
   width: 80%;
-  max-width: 45vw;
+  max-width: 40vw;
   margin: 0 auto;
   margin-bottom: 5vh;
 }

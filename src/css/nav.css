@@ -11,9 +11,10 @@ ul.nav{
     margin: 0;
   }
     ul.nav li a{
-      padding: 20px 30px;
+      padding: 15px 25px;
       font-family: "Courier New", serif;
       font-weight: bold;
+      font-size: 15px;
       color: white;
       -o-transition:.25s;
       -ms-transition:.25s;
@@ -29,3 +30,34 @@ ul.nav{
     ul.nav li:last-child a{
       border-right: 2px solid white;
     }
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  ul.nav li a{
+    font-size: 12px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  ul.nav{
+    display: none;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
