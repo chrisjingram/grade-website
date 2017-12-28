@@ -9,22 +9,53 @@ section#header{
   width: 100%;
   color: white;
   position: relative;
-
+  text-align: center;
 }
 
 #header h2{
   margin: 0; padding: 0;
   font-family: "ButlerMedium", serif;
   display: block;
-  width: 80%;
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  font-size: 4vw;
+  letter-spacing: 3px;
+  margin-bottom: 5vh;
 }
 
 #header img.logo{
   display: block;
   width: 80%;
-  max-width: 600px;
+  max-width: 45vw;
   margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  #header img.logo{
+    max-width: 100%;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
 }

@@ -1,0 +1,53 @@
+.border-button{
+  display: inline-block;
+  background: transparent;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-family: "Courier New", serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #d0992a;
+  border: 1px solid #d0992a;
+  font-size: 20px;
+}
+
+.border-button:hover{
+  text-decoration: none;
+  color: #d0992a;
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .border-button{
+    font-size: 16px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+  .border-button{
+    font-size: 14px;
+  }
+
+}

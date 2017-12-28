@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import '../css/fonts.css';
+import '../css/shared.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
