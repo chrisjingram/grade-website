@@ -36,6 +36,13 @@ section#header{
   margin-bottom: 5vh;
 }
 
+#header img.scroll-arrow{
+  display: block;
+  width: 100%;
+  max-width: 50px;
+  margin: 0 auto;
+}
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */

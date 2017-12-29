@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 
 import headerBG from "../assets/header/header-bg.jpeg";
 import logo from "../assets/header/logo.png";
+import scrollArrow from "../assets/header/scroll-arrow.png";
 
 import VerticalMiddle from "./VerticalMiddle";
 import NavBar from "./NavBar";
@@ -23,6 +24,7 @@ export default class Header extends React.PureComponent{
           <img src={logo} className="logo" />
           <h2>Lorem ipsum dolor sit amet,<br/>consectetur adipisicing elit</h2>
           <Link to="#" className="border-button">Book an appointment</Link>
+          <img src={scrollArrow} className="scroll-arrow" />
 
         </VerticalMiddle>
 
