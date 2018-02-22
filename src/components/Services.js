@@ -15,7 +15,7 @@ export default class Services extends React.PureComponent{
       <section id="services" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.81)),url(' + sectionBG + ')',
  backgroundPosition: 'center center' }}>
 
-        <Heading />
+        <Heading textColour="#FFFFFF" smallText="View" text="Our Services" />
 
       </section>
     )

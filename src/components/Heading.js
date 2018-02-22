@@ -11,8 +11,8 @@ export default class Heading extends React.PureComponent{
 
         <fieldset>
 
-          <legend>Welcome</legend>
-          <h2>Grade Barbers</h2>
+          <legend style={{ color: this.props.textColour }}>{this.props.smallText}</legend>
+          <h2 style={{ color: this.props.textColour }}>{this.props.text}</h2>
 
         </fieldset>
 
