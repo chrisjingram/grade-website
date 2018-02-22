@@ -1,0 +1,24 @@
+section#intro{
+  height: 500px;
+
+}
+section#intro .container-fluid{
+  height: 100%;
+  padding: 0;
+}
+
+section#intro .row{
+  height: 100%;
+}
+
+.half-image{
+  background: #222;
+  height: 100%;
+}
+
+div.intro-text-container{
+  padding: 50px 70px;
+}
+div.intro-text-container p{
+  font-family: "Courier New", serif;
+}

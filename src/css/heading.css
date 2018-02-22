@@ -1,0 +1,31 @@
+.heading{
+  display: inline-block;
+}
+
+
+.heading fieldset{
+  border: 2px solid #e4bb3a;
+  border-left: 0;
+  border-right: 0;
+}
+
+.heading fieldset h2{
+  font-family: "ButlerMedium", serif;
+  margin: 0;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.heading legend{
+  /* position: relative;
+  left: -12px;
+  background: white;
+  font-family: serif; */
+  font-family: "Courier New", serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  width: auto;
+  margin: 0;
+}
