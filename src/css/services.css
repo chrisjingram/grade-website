@@ -2,3 +2,51 @@
   text-align: center;
   padding: 50px 0;
 }
+
+.services-blocks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.service-block{
+  width: 23%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #d0992a;
+  padding: 30px 20px;
+  margin-bottom: 3%;
+}
+  .service-block img{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+  }
+  .service-block h4{
+    font-family: "Courier New", serif;
+    color: #d0992a;
+    text-transform: uppercase;
+  }
+  .service-block p{
+    font-family: "Courier New", serif;
+    color: white;
+    margin: 0;
+  }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .service-block {
+    width: 45%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .service-block{
+    width: 90%;
+  }
+
+}
