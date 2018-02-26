@@ -12,7 +12,7 @@ export default class Heading extends React.PureComponent{
         <fieldset>
 
           <legend style={{ color: this.props.textColour }}>{this.props.smallText}</legend>
-          <h2 style={{ color: this.props.textColour }}>{this.props.text}</h2>
+          <h2 style={{ color: this.props.textColour, marginTop: !this.props.smallText ? "15px" : 0 }}>{this.props.text}</h2>
 
         </fieldset>
 

@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Services from "../components/Services";
 import Shop from "../components/Shop";
+import BookNow from "../components/BookNow";
 
 export default class IndexPage extends React.PureComponent{
 
@@ -15,6 +16,7 @@ export default class IndexPage extends React.PureComponent{
         <Intro />
         <Services />
         <Shop />
+        <BookNow />
       </div>
     )
   }
