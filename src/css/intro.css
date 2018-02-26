@@ -1,18 +1,14 @@
 section#intro{
-
-}
-section#intro .container-fluid{
-  height: 100%;
-  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-section#intro .row{
-  height: 100%;
+#intro .flex-half{
+  width: 50%;
 }
 
-.half-image{
+#intro .image{
   background: #222;
-  height: 100%;
 }
 
 div.intro-text-container{
@@ -20,4 +16,20 @@ div.intro-text-container{
 }
 div.intro-text-container p{
   font-family: "Courier New", serif;
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  #intro .flex-half{
+    width: 100%;
+  }
+  #intro .image{
+    display: none;
+  }
+
 }
