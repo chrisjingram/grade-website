@@ -3,33 +3,9 @@ section#intro{
   justify-content: center;
 }
 
-#intro .flex-half{
-  width: 50%;
-}
-
-#intro .image{
-  background: #222;
-}
-
 div.intro-text-container{
   padding: 50px 70px;
 }
 div.intro-text-container p{
   font-family: "Courier New", serif;
-}
-
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-  #intro .flex-half{
-    width: 100%;
-  }
-  #intro .image{
-    display: none;
-  }
-
 }

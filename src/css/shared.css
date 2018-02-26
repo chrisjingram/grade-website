@@ -40,6 +40,29 @@
   padding-left: 0;
 }
 
+.flex-half{
+  width: 50%;
+}
+
+.flex-half-image{
+  background: #222;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .flex-half{
+    width: 100%;
+  }
+  .flex-half-image{
+    display: none;
+  }
+
+}
+
 
 
 /*==========  Non-Mobile First Method  ==========*/
