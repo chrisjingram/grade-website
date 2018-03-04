@@ -10,6 +10,7 @@ section#header{
   color: white;
   position: relative;
   text-align: center;
+  padding-top: 50px;
 }
 
 #header h2{
@@ -19,7 +20,7 @@ section#header{
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-size: 4vw;
+  font-size: 50px;
   letter-spacing: 3px;
   margin-bottom: 7vh;
 }
@@ -31,7 +32,7 @@ section#header{
 #header img.logo{
   display: block;
   width: 80%;
-  max-width: 40vw;
+  max-width: 600px;
   margin: 0 auto;
   margin-bottom: 5vh;
 }
@@ -52,7 +53,12 @@ section#header{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+  #header h2{
+    font-size: 4vw;
+  }
+  #header img.logo{
+    max-width: 60vw;
+  }
 }
 
 /* Small Devices, Tablets */
