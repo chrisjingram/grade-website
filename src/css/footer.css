@@ -1,0 +1,20 @@
+#footer{
+  text-align: center;
+  padding: 50px 0;
+}
+
+#footer .social-icons{
+  margin-bottom: 15px;
+}
+
+#footer .social-icons a{
+  color: white;
+  font-size: 30px;
+  margin: 0 30px;
+}
+
+#footer .copyright{
+  font-family: "Courier New", serif;
+  font-size: 20px;
+  color: white;
+}

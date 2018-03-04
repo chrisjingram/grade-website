@@ -22,11 +22,11 @@ export default class OpeningHours extends React.PureComponent{
 
         </div>
 
-        <div className="flex-half flex-half-image">
+        <div className="flex-half">
 
           <iframe
             frameBorder="0" style={{margin: 0, width: "100%", height: "100%", border: 0}}
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDYKEyKMhCzFL8tnV_PErHQpQGkqtrs4uE&q=Grade+Barber+%26+Shop,Manchester" allowFullscreen>
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDYKEyKMhCzFL8tnV_PErHQpQGkqtrs4uE&q=Grade+Barber+%26+Shop,Manchester" allowFullScreen>
           </iframe>
 
         </div>

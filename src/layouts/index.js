@@ -16,7 +16,9 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    </Helmet>
     <div>
       {children()}
     </div>

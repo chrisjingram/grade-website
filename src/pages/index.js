@@ -7,6 +7,7 @@ import Services from "../components/Services";
 import Shop from "../components/Shop";
 import BookNow from "../components/BookNow";
 import OpeningHours from "../components/OpeningHours";
+import Footer from "../components/Footer";
 
 export default class IndexPage extends React.PureComponent{
 
@@ -19,6 +20,7 @@ export default class IndexPage extends React.PureComponent{
         <Shop />
         <BookNow />
         <OpeningHours />
+        <Footer />
       </div>
     )
   }
