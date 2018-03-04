@@ -1,0 +1,25 @@
+#opening-hours{
+  display: flex;
+}
+
+.left-col{
+  background: #000;
+}
+
+.opening-hours-text-container {
+  color: white;
+  padding: 50px 70px;
+}
+.opening-hours-text-container p{
+  font-family: "Courier New", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.opening-hours-text-container .heading{
+  margin-bottom: 30px;
+}
+
+#opening-hours h2{
+  font-size: 40px;
+}
