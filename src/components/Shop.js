@@ -5,6 +5,8 @@ import Heading from "./Heading";
 
 import "../css/shop.css";
 
+import halfImage from "../assets/shop/shop-image.jpg";
+
 export default class Shop extends React.PureComponent{
   render(){
 
@@ -20,7 +22,7 @@ export default class Shop extends React.PureComponent{
 
         </div>
 
-        <div className="flex-half flex-half-image">
+        <div className="flex-half flex-half-image" style={{ backgroundImage: 'url(' + halfImage + ')', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
 
         </div>
 

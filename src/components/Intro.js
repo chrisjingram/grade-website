@@ -6,13 +6,15 @@ import Heading from "./Heading";
 
 import "../css/intro.css";
 
+import introImage from "../assets/intro/intro-image.jpg";
+
 export default class Intro extends React.PureComponent{
   render(){
 
     return (
       <section id="intro">
 
-        <div className="flex-half flex-half-image">
+        <div className="flex-half flex-half-image" style={{ backgroundImage: 'url(' + introImage + ')', backgroundPosition: 'top center', backgroundSize: 'cover' }}>
 
         </div>
 
