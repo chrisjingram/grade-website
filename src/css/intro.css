@@ -11,6 +11,15 @@ div.intro-text-container p{
   font-size: 20px;
 }
 
+@media only screen and (min-width: 1440px){
+  div.intro-text-container{
+    padding: 100px 120px;
+  }
+  div.intro-text-container p{
+    margin: 15px 0 40px;
+  }
+}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   div.intro-text-container {

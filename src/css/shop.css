@@ -7,6 +7,16 @@ div.shop-text-container p{
   margin: 0;
 }
 
+@media only screen and (min-width: 1440px){
+  div.shop-text-container{
+    padding: 100px 120px;
+  }
+  div.shop-text-container p{
+    margin: 15px 0;
+  }
+}
+
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   div.shop-text-container{

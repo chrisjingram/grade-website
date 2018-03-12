@@ -1,4 +1,10 @@
 #book-now{
-  padding: 50px 0;
+  padding: 70px 0;
   text-align: center;
+}
+
+@media only screen and (min-width: 1440px){
+  #book-now{
+    padding: 120px 0;
+  }
 }

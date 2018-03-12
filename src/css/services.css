@@ -36,6 +36,13 @@
     margin: 0;
   }
 
+@media only screen and (min-width: 1440px){
+  #services{
+    padding: 120px 0;
+  }
+}
+
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   .service-block {

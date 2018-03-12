@@ -20,6 +20,16 @@
   margin-bottom: 30px;
 }
 
+@media only screen and (min-width: 1440px){
+  div.opening-hours-text-container{
+    padding: 100px 120px;
+  }
+  div.opening-hours-text-container p{
+    margin: 15px 0;
+  }
+}
+
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
   .opening-hours-text-container{
