@@ -12,7 +12,7 @@ export default class ServiceBlock extends React.PureComponent{
       <div className="service-block">
         <img src={this.props.icon} />
         <h4>{this.props.title}</h4>
-        <p>{this.props.description}</p>
+        <p>{this.props.children}</p>
       </div>
     )
 

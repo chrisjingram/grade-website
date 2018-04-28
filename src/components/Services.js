@@ -26,19 +26,19 @@ export default class Services extends React.PureComponent{
 
         <div className="services-blocks">
 
-          <ServiceBlock icon={scissors} title="Scissor Cut" description="Lorem ipsum dolor sit amet, consectur" />
-          <ServiceBlock icon={razor} title="Razor Cut" description="Lorem ipsum dolor sit amet, consectur" />
-          <ServiceBlock icon={head} title="Head Shave" description="Lorem ipsum dolor sit amet, consectur" />
-          <ServiceBlock icon={clippers} title="Clipper Cut" description="Lorem ipsum dolor sit amet, consectur" />
+          <ServiceBlock icon={scissors} title="Wash, Cut & Style">Standard <strong>£12.50</strong><br />Bald fade <strong>£15</strong></ServiceBlock>
+          <ServiceBlock icon={clippers} title="Buzz Cut">Standard <strong>£10</strong><br />Fade <strong>£12.50</strong></ServiceBlock>
+          <ServiceBlock icon={head} title="Youth Cut">Standard <strong>£10</strong><br />Bald Fade <strong>£12.50</strong></ServiceBlock>
+          <ServiceBlock icon={razor} title="Shape Up Edges">Classic <strong>£10</strong></ServiceBlock>
 
         </div>
 
         <div className="services-blocks">
 
-          <ServiceBlock icon={scissors} title="Scissor Cut" description="Lorem ipsum dolor sit amet, consectur" />
-          <ServiceBlock icon={razor} title="Razor Cut" description="Lorem ipsum dolor sit amet, consectur" />
-          <ServiceBlock icon={head} title="Head Shave" description="Lorem ipsum dolor sit amet, consectur" />
-          <ServiceBlock icon={clippers} title="Clipper Cut" description="Lorem ipsum dolor sit amet, consectur" />
+          <ServiceBlock icon={scissors} title="Beard">Classic <strong>£7.50</strong></ServiceBlock>
+          <ServiceBlock icon={razor} title="Shave">Steam Shave <strong>£15</strong><br />Hot Towel Shave <strong>£15</strong></ServiceBlock>
+          <ServiceBlock icon={razor} title="Executive Shave">Executive <strong>£20</strong></ServiceBlock>
+          <ServiceBlock icon={head} title="Face">Express Facial <strong>£10</strong><br />Executive Facial <strong>£15</strong></ServiceBlock>
 
         </div>
 
