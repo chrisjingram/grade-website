@@ -24,11 +24,25 @@ ul.nav{
       margin: 0;
       border-left: 1px solid white;
     }
+    ul.nav li a:link{
+      color: white;
+    }
+    ul.nav li a:visited{
+      background: transparent;
+    }
     ul.nav li a:hover{
       color: #040505;
     }
+    ul.nav li a:active{
+      color: white;
+      background: transparent;
+    }
+    ul.nav li a:focus{
+      color: white;
+      background: transparent;
+    }
     ul.nav li:last-child a{
-      border-right: 2px solid white;
+      border-right: 1px solid white;
     }
 
 /*==========  Non-Mobile First Method  ==========*/

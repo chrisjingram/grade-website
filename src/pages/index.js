@@ -11,6 +11,7 @@ import Footer from "../components/Footer";
 
 export default class IndexPage extends React.PureComponent{
 
+
   render(){
     return (
       <div>
