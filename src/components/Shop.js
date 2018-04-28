@@ -23,7 +23,10 @@ export default class Shop extends React.PureComponent{
         </div>
 
         <div className="flex-half flex-half-image" style={{ backgroundImage: 'url(' + halfImage + ')', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
-
+          <iframe
+            frameBorder="0" style={{margin: 0, width: "100%", height: "100%", border: 0}}
+            src="https://gradebarbershop.resurva.com/book?embedded=true" name="resurva-frame" frameborder="0" allowFullscreen>
+          </iframe>
         </div>
 
       </section>
