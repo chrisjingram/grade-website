@@ -15,7 +15,7 @@ export default class BookNow extends React.PureComponent{
  backgroundPosition: 'center center' }}>
 
         <div><Heading textColour="#FFFFFF" smallText="" text="Book Now" /></div>
-        <div><Link to="#" className="border-button">Book an appointment</Link></div>
+        <div><a href="https://gradebarbershop.resurva.com" className="border-button" target="_blank">Book an appointment</a></div>
 
       </section>
     )

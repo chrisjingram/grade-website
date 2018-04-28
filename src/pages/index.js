@@ -17,7 +17,6 @@ export default class IndexPage extends React.PureComponent{
         <Header />
         <Intro />
         <Services />
-        <Shop />
         <BookNow />
         <OpeningHours />
         <Footer />
