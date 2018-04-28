@@ -67,8 +67,20 @@ section#header{
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+  #header h2{
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
   #header img.logo{
     max-width: 100%;
+    width: 90%;
+  }
+  #header .border-button{
+    font-size: 14px;
+    padding: 12px 17px;
+  }
+  #header img.scroll-arrow{
+    max-width: 40px;
   }
 }
 
