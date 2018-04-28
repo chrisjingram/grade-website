@@ -15,9 +15,9 @@ export default class OpeningHours extends React.PureComponent{
 
           <div className="opening-hours-text-container">
             <Heading textColour="#FFFFFF" smallText="View Our" text="Opening Hours" />
-            <p>MONDAY to FRIDAY<br />09:00 - 20:00</p>
-            <p>SATURDAY<br />10:00 - 18:00</p>
-            <p>SUNDAY<br />11:00 - 18:00</p>
+            <p>MONDAY to FRIDAY<br />10:00 - 19:00</p>
+            <p>SATURDAY<br />09:00 - 17:00</p>
+            <p>SUNDAY<br />Closed</p>
           </div>
 
         </div>
@@ -26,7 +26,7 @@ export default class OpeningHours extends React.PureComponent{
 
           <iframe
             frameBorder="0" style={{margin: 0, width: "100%", height: "100%", border: 0}}
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDYKEyKMhCzFL8tnV_PErHQpQGkqtrs4uE&q=Grade+Barber+%26+Shop,Manchester" allowFullScreen>
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDYKEyKMhCzFL8tnV_PErHQpQGkqtrs4uE&q=564+Oldham+Rd,+Failsworth" allowFullScreen>
           </iframe>
 
         </div>

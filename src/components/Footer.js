@@ -17,7 +17,7 @@ export default class Footer extends React.PureComponent{
           <a href="#"><i className="fab fa-instagram"></i></a>
           <a href="#"><i className="fab fa-twitter"></i></a>
         </div>
-        <div className="copyright">&copy; Grade Barbers & Shop 2018</div>
+        <div className="copyright">&copy; Grade Barber & Shop 2018</div>
 
       </section>
     )

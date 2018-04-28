@@ -22,7 +22,7 @@ export default class Header extends React.PureComponent{
         <VerticalMiddle>
 
           <img src={logo} className="logo" />
-          <h2>A five star master barber experience</h2>
+          <h2>Precision fades and bespoke shaves</h2>
           <Link to="#" className="border-button">Book an appointment</Link>
           <img src={scrollArrow} className="scroll-arrow" />
 
