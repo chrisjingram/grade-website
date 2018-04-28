@@ -33,6 +33,15 @@ export default class Services extends React.PureComponent{
 
         </div>
 
+        <div className="services-blocks">
+
+          <ServiceBlock icon={scissors} title="Scissor Cut" description="Lorem ipsum dolor sit amet, consectur" />
+          <ServiceBlock icon={razor} title="Razor Cut" description="Lorem ipsum dolor sit amet, consectur" />
+          <ServiceBlock icon={head} title="Head Shave" description="Lorem ipsum dolor sit amet, consectur" />
+          <ServiceBlock icon={clippers} title="Clipper Cut" description="Lorem ipsum dolor sit amet, consectur" />
+
+        </div>
+
       </section>
     )
 
