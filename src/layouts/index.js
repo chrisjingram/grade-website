@@ -11,10 +11,10 @@ import '../css/shared.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Grade Barbers"
+      title="Grade Barber & Shop - Manchester"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Precision fades and bespoke shaves.' },
+        { name: 'keywords', content: 'grade barber manchester failsworth beard shave fade wash cut trim' },
       ]}
     >
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
