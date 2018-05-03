@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Services from "../components/Services";
 import Shop from "../components/Shop";
+import Logos from "../components/Logos";
 import BookNow from "../components/BookNow";
 import OpeningHours from "../components/OpeningHours";
 import Footer from "../components/Footer";
@@ -18,6 +19,7 @@ export default class IndexPage extends React.PureComponent{
         <Header />
         <Intro />
         <Services />
+        <Logos />
         <BookNow />
         <OpeningHours />
         <Footer />

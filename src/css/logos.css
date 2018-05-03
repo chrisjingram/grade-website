@@ -1,0 +1,36 @@
+#logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #050505;
+  height: 100px;
+}
+
+.logo-imgs{
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-img{
+  display: block;
+  width: 10%;
+  height: 100%;
+  padding: 0; margin: 0;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width : 768px) {
+  .logo-img{
+    width: 13%;
+  }
+}
+
+
+@media only screen and (max-width : 480px) {
+  #logos{
+    display: none;
+  }
+}
