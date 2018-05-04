@@ -26,7 +26,7 @@ export default class OpeningHours extends React.PureComponent{
 
           <iframe
             frameBorder="0" style={{margin: 0, width: "100%", height: "100%", border: 0}}
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDYKEyKMhCzFL8tnV_PErHQpQGkqtrs4uE&q=564+Oldham+Rd,+Failsworth" allowFullScreen>
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdpMS7XHtBlbOvwtXwFk_7kvC_qAvuttI&q=564+Oldham+Rd,+Failsworth" allowFullScreen>
           </iframe>
 
         </div>
